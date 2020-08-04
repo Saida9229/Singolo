@@ -1,0 +1,191 @@
+html,body{
+  font-family:"Lato";
+  padding:0;
+  margin:0;
+}
+.portfolio{
+  width:100%;
+  height:865px;
+  justify-content: center;
+  display:flex;
+  background: #2d2f39;
+  border-bottom:6px solid #2d2f39;
+}
+.about-us{
+  width:100%;
+  height:730px;
+  justify-content: center;
+  display:flex;
+  background:#ffffff;
+  border-bottom: 4px solid #f1f1f1;
+
+}
+.main{
+  max-width: 1200px;
+  min-width: 1020px;
+  height: 100%;
+  background: transparent;
+  position: relative;
+}
+.header{
+  margin-left: 40px;
+  margin-top: 70px;
+}
+.header h2{
+  font-size: 30px;
+  line-height: 18px;
+  color:#666d89;
+  padding-bottom: 8px;
+}
+.header h3{
+
+  color:#767e9e;
+}
+.menu{
+
+}
+.menu ul{
+  display:flex;
+  list-style-type: none;
+  padding: 0 0  0 0;
+  margin-top:-6px;
+
+}
+.menu li{
+  padding:1px 6px 1px 6px;
+  margin-right: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  border:1px solid #767e9e;
+  border-radius: 5px;
+  text-align: center;
+}
+.menu .act a{
+
+  color:#dedede;
+  border-color: #c5c5c5;
+}
+.menu a{
+  width:10px;
+  color: #767e9e;
+  text-decoration: none;
+}
+a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: #dedede;
+}
+
+.images {
+  display:grid;
+  grid-gap: 20px;
+  padding-top: 3px;
+  overflow: hidden;
+  grid-template-columns: 220px 220px 220px 220px;
+  grid-template-rows: 185px 185px 185px 185px;
+}
+.grid{
+  background-color: #454b5d;
+  display: flex;
+  background-position:center;
+  background-size: cover;
+}
+.item1{
+  background: url("assets/1.png") ;
+}
+.item2{
+  background: url("assets/2.png") ;
+}
+.item3{
+  background: url("assets/3.png") ;
+}
+.item4{
+  background: url("assets/4.png") ;
+}
+.item5{
+  background: url("assets/5.png") ;
+}
+.item6{
+  background: url("assets/6.png") ;
+}
+.item7{
+  background: url("assets/7.png") ;
+}
+.item8{
+  background: url("assets/8.png") ;
+}
+.item9{
+  background: url("assets/9.png") ;
+}
+.item10{
+  background: url("assets/10.png") ;
+}
+.item11{
+  background: url("assets/11.png") ;
+}
+.item12{
+  background: url("assets/12.png") ;
+}
+.about{
+  margin-left: 40px;
+  margin-top: 70px;
+}
+.about h2{
+  font-size: 30px;
+line-height: 18px;
+color: #666d89;
+font-weight: 900;
+}
+.about h3{
+font-size: 18px;
+line-height: 30px;
+color: #767e9e;
+font-weight: 300;
+}
+.us{
+  margin-top: 45px;
+  margin-left: 40px;
+  display:grid;
+  grid-gap: 20px  20px;
+
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 70px 32px;
+}
+.my{
+
+}
+
+.one{
+  background: url("assets/face1.png") ;
+}
+.two{
+  background: url("assets/face2.png") ;
+}
+
+.three{
+  background: url("assets/face3.png") ;
+}
+.seven{
+  background: url("assets/linkedin.png") no-repeat;
+}
+.eight{
+  background: url("assets/linkedin.png") no-repeat;
+}
+.nine{
+  background: url("assets/linkedin.png") no-repeat;
+}
+
+.my h3{
+  font-size: 18px;
+line-height: 18px;
+color: #666d89;
+margin-top: -3px;
+}
+.my h4{
+  margin-top: -6px;
+  width: 300px;
+height: 175px;
+font-size: 12px;
+line-height: 22px;
+color: #767e9e;
+}
